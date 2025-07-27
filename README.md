@@ -5,7 +5,7 @@ This repository contains the LIVED benchmark dataset and evaluation metrics for 
 ## Dataset
 
 We have released 1000 Q&As from the LIVED dataset, which can be found in the `minidata` folder. The distribution of question types is as follows:
-- Multiple Choice Questions: 600 questions
+- Multiple-Choice Questions: 600 questions
 - Judgment Questions: 165 questions
 - Completion Questions: 155 questions
 - Open-ended Questions: 80 questions
@@ -16,4 +16,4 @@ If you are interested in obtaining the full version of the LIVED dataset, please
 
 The `utils` folder contains the evaluation metrics used to assess the performance of language models on the LIVED dataset:
 - `Accuracy.py`: This script calculates the accuracy for multiple-choice and judgment questions.
-- `Cosine_Similarity.py`: This script computes the cosine similarity for completion and open-ended questions.
+- `CosineSimilarity.py`: This script computes the cosine similarity for completion and open-ended questions.
